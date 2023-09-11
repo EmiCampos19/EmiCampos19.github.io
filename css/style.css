@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    background-color: #FFE4E1;
+    font-family: Montserrat;
+}
+#calcularBtn:hover{
+    background-color: #D87093;
+}
+#resultado{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+#resultado.mostrar{
+    opacity: 1;
+}
+.btn{
+    color: white;
+    background-color: #FFB6C1;
+}
